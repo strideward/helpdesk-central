@@ -1,0 +1,532 @@
+[
+  {
+    "type": "NCV",
+    "institution": "Boland College",
+    "category": "Engineering Studies",
+    "name": "Electrical Infrastructure Construction",
+    "code": null,
+    "nqf_level": 2,
+    "duration_years": 1,
+    "credits": null,
+    "campus": "Paarl",
+    "entry_subjects": {
+      "must_have": [
+        { "subject": "Mathematics", "min_mark": 0 }
+      ],
+      "or_groups": []
+    },
+    "entry": {
+      "nqf_level_required": null,
+      "grade_required": "Grade 9",
+      "ncv_level_required": null,
+      "matric_required": false,
+      "aps_required": null,
+      "rpl_allowed": true,
+      "requirement_text": "Grade 9 pass with Mathematics OR PLP: English 50%, Mathematics 55%, Science 50%, Life Skills 40%"
+    },
+    "level": 2,
+    "next_level": "NCV: Electrical Infrastructure Construction Level 3"
+  },
+  {
+    "type": "NCV",
+    "institution": "Boland College",
+    "category": "Engineering Studies",
+    "name": "Electrical Infrastructure Construction",
+    "code": null,
+    "nqf_level": 3,
+    "duration_years": 1,
+    "credits": null,
+    "campus": "Paarl",
+    "entry_subjects": {
+      "must_have": [
+        { "subject": "Mathematics", "min_mark": 0 }
+      ],
+      "or_groups": []
+    },
+    "entry": {
+      "nqf_level_required": null,
+      "grade_required": null,
+      "ncv_level_required": 2,
+      "matric_required": false,
+      "aps_required": null,
+      "rpl_allowed": true,
+      "requirement_text": "NCV Level 2 in Electrical Infrastructure Construction"
+    },
+    "level": 3,
+    "next_level": "NCV: Electrical Infrastructure Construction Level 4"
+  },
+  {
+    "type": "NCV",
+    "institution": "Boland College",
+    "category": "Engineering Studies",
+    "name": "Electrical Infrastructure Construction",
+    "code": null,
+    "nqf_level": 4,
+    "duration_years": 1,
+    "credits": null,
+    "campus": "Paarl",
+    "entry_subjects": {
+      "must_have": [
+        { "subject": "Mathematics", "min_mark": 0 }
+      ],
+      "or_groups": []
+    },
+    "entry": {
+      "nqf_level_required": null,
+      "grade_required": null,
+      "ncv_level_required": 3,
+      "matric_required": false,
+      "aps_required": null,
+      "rpl_allowed": true,
+      "requirement_text": "NCV Level 3 in Electrical Infrastructure Construction"
+    },
+    "level": 4,
+    "next_level": null
+  },
+  {
+    "type": "NCV",
+    "institution": "Boland College",
+    "category": "Engineering Studies",
+    "name": "Civil Engineering and Building Construction",
+    "code": null,
+    "nqf_level": 2,
+    "duration_years": 1,
+    "credits": null,
+    "campus": "Various",
+    "entry_subjects": {
+      "must_have": [
+        { "subject": "Mathematics", "min_mark": 0 }
+      ],
+      "or_groups": []
+    },
+    "entry": {
+      "nqf_level_required": null,
+      "grade_required": "Grade 9",
+      "ncv_level_required": null,
+      "matric_required": false,
+      "aps_required": null,
+      "rpl_allowed": true,
+      "requirement_text": "Grade 9 pass with Mathematics"
+    },
+    "level": 2,
+    "next_level": "NCV: Civil Engineering and Building Construction Level 3"
+  },
+  {
+    "type": "NCV",
+    "institution": "Boland College",
+    "category": "Engineering Studies",
+    "name": "Civil Engineering and Building Construction",
+    "code": null,
+    "nqf_level": 3,
+    "duration_years": 1,
+    "credits": null,
+    "campus": "Various",
+    "entry_subjects": {
+      "must_have": [
+        { "subject": "Mathematics", "min_mark": 0 }
+      ],
+      "or_groups": []
+    },
+    "entry": {
+      "nqf_level_required": null,
+      "grade_required": null,
+      "ncv_level_required": 2,
+      "matric_required": false,
+      "aps_required": null,
+      "rpl_allowed": true,
+      "requirement_text": "NCV Level 2 in Civil Engineering and Building Construction"
+    },
+    "level": 3,
+    "next_level": "NCV: Civil Engineering and Building Construction Level 4"
+  },
+  {
+    "type": "NCV",
+    "institution": "Boland College",
+    "category": "Engineering Studies",
+    "name": "Civil Engineering and Building Construction",
+    "code": null,
+    "nqf_level": 4,
+    "duration_years": 1,
+    "credits": null,
+    "campus": "Various",
+    "entry_subjects": {
+      "must_have": [
+        { "subject": "Mathematics", "min_mark": 0 }
+      ],
+      "or_groups": []
+    },
+    "entry": {
+      "nqf_level_required": null,
+      "grade_required": null,
+      "ncv_level_required": 3,
+      "matric_required": false,
+      "aps_required": null,
+      "rpl_allowed": true,
+      "requirement_text": "NCV Level 3 in Civil Engineering and Building Construction"
+    },
+    "level": 4,
+    "next_level": null
+  },
+  {
+    "type": "NCV",
+    "institution": "Boland College",
+    "category": "Engineering Studies",
+    "name": "Engineering and Related Design",
+    "code": null,
+    "nqf_level": 2,
+    "duration_years": 1,
+    "credits": null,
+    "campus": "Various",
+    "entry_subjects": {
+      "must_have": [
+        { "subject": "Mathematics", "min_mark": 0 }
+      ],
+      "or_groups": []
+    },
+    "entry": {
+      "nqf_level_required": null,
+      "grade_required": "Grade 9",
+      "ncv_level_required": null,
+      "matric_required": false,
+      "aps_required": null,
+      "rpl_allowed": true,
+      "requirement_text": "Grade 9 pass with Mathematics"
+    },
+    "level": 2,
+    "next_level": "NCV: Engineering and Related Design Level 3"
+  },
+  {
+    "type": "NCV",
+    "institution": "Boland College",
+    "category": "Engineering Studies",
+    "name": "Engineering and Related Design",
+    "code": null,
+    "nqf_level": 3,
+    "duration_years": 1,
+    "credits": null,
+    "campus": "Various",
+    "entry_subjects": {
+      "must_have": [
+        { "subject": "Mathematics", "min_mark": 0 }
+      ],
+      "or_groups": []
+    },
+    "entry": {
+      "nqf_level_required": null,
+      "grade_required": null,
+      "ncv_level_required": 2,
+      "matric_required": false,
+      "aps_required": null,
+      "rpl_allowed": true,
+      "requirement_text": "NCV Level 2 in Engineering and Related Design"
+    },
+    "level": 3,
+    "next_level": "NCV: Engineering and Related Design Level 4"
+  },
+  {
+    "type": "NCV",
+    "institution": "Boland College",
+    "category": "Engineering Studies",
+    "name": "Engineering and Related Design",
+    "code": null,
+    "nqf_level": 4,
+    "duration_years": 1,
+    "credits": null,
+    "campus": "Various",
+    "entry_subjects": {
+      "must_have": [
+        { "subject": "Mathematics", "min_mark": 0 }
+      ],
+      "or_groups": []
+    },
+    "entry": {
+      "nqf_level_required": null,
+      "grade_required": null,
+      "ncv_level_required": 3,
+      "matric_required": false,
+      "aps_required": null,
+      "rpl_allowed": true,
+      "requirement_text": "NCV Level 3 in Engineering and Related Design"
+    },
+    "level": 4,
+    "next_level": null
+  },
+  {
+    "type": "NCV",
+    "institution": "Boland College",
+    "category": "Information Technology",
+    "name": "IT and Computer Science",
+    "code": null,
+    "nqf_level": 2,
+    "duration_years": 1,
+    "credits": null,
+    "campus": "Various",
+    "entry_subjects": {
+      "must_have": [
+        { "subject": "English", "min_mark": 0 },
+        { "subject": "Mathematical Literacy", "min_mark": 0 },
+        { "subject": "Life Orientation", "min_mark": 0 }
+      ],
+      "or_groups": []
+    },
+    "entry": {
+      "nqf_level_required": null,
+      "grade_required": "Grade 9",
+      "ncv_level_required": null,
+      "matric_required": false,
+      "aps_required": null,
+      "rpl_allowed": true,
+      "requirement_text": "Grade 9 pass"
+    },
+    "level": 2,
+    "next_level": "NCV: IT and Computer Science Level 3"
+  },
+  {
+    "type": "NCV",
+    "institution": "Boland College",
+    "category": "Information Technology",
+    "name": "IT and Computer Science",
+    "code": null,
+    "nqf_level": 3,
+    "duration_years": 1,
+    "credits": null,
+    "campus": "Various",
+    "entry_subjects": {
+      "must_have": [
+        { "subject": "English", "min_mark": 0 },
+        { "subject": "Mathematical Literacy", "min_mark": 0 },
+        { "subject": "Life Orientation", "min_mark": 0 }
+      ],
+      "or_groups": []
+    },
+    "entry": {
+      "nqf_level_required": null,
+      "grade_required": null,
+      "ncv_level_required": 2,
+      "matric_required": false,
+      "aps_required": null,
+      "rpl_allowed": true,
+      "requirement_text": "NCV Level 2 in IT and Computer Science"
+    },
+    "level": 3,
+    "next_level": "NCV: IT and Computer Science Level 4"
+  },
+  {
+    "type": "NCV",
+    "institution": "Boland College",
+    "category": "Information Technology",
+    "name": "IT and Computer Science",
+    "code": null,
+    "nqf_level": 4,
+    "duration_years": 1,
+    "credits": null,
+    "campus": "Various",
+    "entry_subjects": {
+      "must_have": [
+        { "subject": "English", "min_mark": 0 },
+        { "subject": "Mathematical Literacy", "min_mark": 0 },
+        { "subject": "Life Orientation", "min_mark": 0 }
+      ],
+      "or_groups": []
+    },
+    "entry": {
+      "nqf_level_required": null,
+      "grade_required": null,
+      "ncv_level_required": 3,
+      "matric_required": false,
+      "aps_required": null,
+      "rpl_allowed": true,
+      "requirement_text": "NCV Level 3 in IT and Computer Science"
+    },
+    "level": 4,
+    "next_level": null
+  },
+  {
+    "type": "NCV",
+    "institution": "Boland College",
+    "category": "Office Management Sciences",
+    "name": "Office Administration",
+    "code": null,
+    "nqf_level": 2,
+    "duration_years": 1,
+    "credits": null,
+    "campus": "Various",
+    "entry_subjects": {
+      "must_have": [
+        { "subject": "English", "min_mark": 0 },
+        { "subject": "Mathematical Literacy", "min_mark": 0 },
+        { "subject": "Life Orientation", "min_mark": 0 }
+      ],
+      "or_groups": []
+    },
+    "entry": {
+      "nqf_level_required": null,
+      "grade_required": "Grade 9",
+      "ncv_level_required": null,
+      "matric_required": false,
+      "aps_required": null,
+      "rpl_allowed": true,
+      "requirement_text": "Grade 9 pass"
+    },
+    "level": 2,
+    "next_level": "NCV: Office Administration Level 3"
+  },
+  {
+    "type": "NCV",
+    "institution": "Boland College",
+    "category": "Office Management Sciences",
+    "name": "Office Administration",
+    "code": null,
+    "nqf_level": 3,
+    "duration_years": 1,
+    "credits": null,
+    "campus": "Various",
+    "entry_subjects": {
+      "must_have": [
+        { "subject": "English", "min_mark": 0 },
+        { "subject": "Mathematical Literacy", "min_mark": 0 },
+        { "subject": "Life Orientation", "min_mark": 0 }
+      ],
+      "or_groups": []
+    },
+    "entry": {
+      "nqf_level_required": null,
+      "grade_required": null,
+      "ncv_level_required": 2,
+      "matric_required": false,
+      "aps_required": null,
+      "rpl_allowed": true,
+      "requirement_text": "NCV Level 2 in Office Administration"
+    },
+    "level": 3,
+    "next_level": "NCV: Office Administration Level 4"
+  },
+  {
+    "type": "NCV",
+    "institution": "Boland College",
+    "category": "Office Management Sciences",
+    "name": "Office Administration",
+    "code": null,
+    "nqf_level": 4,
+    "duration_years": 1,
+    "credits": null,
+    "campus": "Various",
+    "entry_subjects": {
+      "must_have": [
+        { "subject": "English", "min_mark": 0 },
+        { "subject": "Mathematical Literacy", "min_mark": 0 },
+        { "subject": "Life Orientation", "min_mark": 0 }
+      ],
+      "or_groups": []
+    },
+    "entry": {
+      "nqf_level_required": null,
+      "grade_required": null,
+      "ncv_level_required": 3,
+      "matric_required": false,
+      "aps_required": null,
+      "rpl_allowed": true,
+      "requirement_text": "NCV Level 3 in Office Administration"
+    },
+    "level": 4,
+    "next_level": null
+  },
+  {
+    "type": "Occupational Certificate",
+    "institution": "Boland College",
+    "name": "Chef",
+    "code": null,
+    "nqf_level": 5,
+    "duration_years": null,
+    "credits": null,
+    "campus": "Paarl Campus",
+    "entry_subjects": {
+      "must_have": [],
+      "or_groups": []
+    },
+    "entry": {
+      "nqf_level_required": null,
+      "grade_required": null,
+      "ncv_level_required": null,
+      "matric_required": false,
+      "aps_required": null,
+      "rpl_allowed": false,
+      "requirement_text": "Contact college for specific admission requirements"
+    }
+  },
+  {
+    "type": "Occupational Certificate",
+    "institution": "Boland College",
+    "name": "Early Childhood Development Practitioner",
+    "code": null,
+    "nqf_level": 4,
+    "duration_years": 1.5,
+    "credits": null,
+    "campus": "Caledon Campus",
+    "entry_subjects": {
+      "must_have": [],
+      "or_groups": []
+    },
+    "entry": {
+      "nqf_level_required": null,
+      "grade_required": null,
+      "ncv_level_required": null,
+      "matric_required": false,
+      "aps_required": null,
+      "rpl_allowed": false,
+      "requirement_text": "QCTO Occupational Certificate – 18 months at NQF Level 4"
+    }
+  },
+  {
+    "type": "Occupational Certificate",
+    "institution": "Boland College",
+    "name": "Welding",
+    "code": null,
+    "nqf_level": null,
+    "duration_years": null,
+    "credits": null,
+    "campus": "Worcester Campus",
+    "entry_subjects": {
+      "must_have": [],
+      "or_groups": []
+    },
+    "entry": {
+      "nqf_level_required": null,
+      "grade_required": null,
+      "ncv_level_required": null,
+      "matric_required": false,
+      "aps_required": null,
+      "rpl_allowed": false,
+      "requirement_text": "Contact college for specific admission requirements"
+    }
+  },
+  {
+    "type": "Pre-Vocational Learning Programme",
+    "institution": "Boland College",
+    "name": "Pre-Vocational Learning Programme (PLP)",
+    "code": null,
+    "nqf_level": null,
+    "duration_years": 1,
+    "credits": null,
+    "campus": "Various",
+    "entry_subjects": {
+      "must_have": [],
+      "or_groups": []
+    },
+    "entry": {
+      "nqf_level_required": null,
+      "grade_required": null,
+      "ncv_level_required": null,
+      "matric_required": false,
+      "aps_required": null,
+      "rpl_allowed": false,
+      "requirement_text": "Prepares students for access into TVET programmes (NCV, NATED, and Occupational Qualifications)"
+    },
+    "subjects": [
+      "Foundational English",
+      "Foundational Mathematics",
+      "Foundational Science",
+      "Foundational Life Skills & Technology"
+    ]
+  }
+]
