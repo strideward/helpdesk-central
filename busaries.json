@@ -1,0 +1,280 @@
+{
+  "country": "South Africa",
+  "bursaries": [
+    {
+      "name": "NSFAS Bursary",
+      "provider": "National Student Financial Aid Scheme (NSFAS)",
+      "website": "https://www.nsfas.org.za",
+      "logo": "",
+      "description": "Government-funded bursary for students at public universities and TVET colleges from low-income households. Covers tuition, registration, accommodation, learning materials, and transport.",
+      "application_opening_date": "20 September",
+      "application_closing_date": "15 December",
+      "eligibility": "South African citizen/permanent resident; combined household income ≤ R350,000 per year (≤ R600,000 for persons with disabilities); registered for approved programmes at public university or TVET.",
+      "status": ""
+    },
+    {
+      "name": "NSFAS Student Loan",
+      "provider": "National Student Financial Aid Scheme (NSFAS)",
+      "website": "https://www.nsfas.org.za/content/studentloan.html",
+      "logo": "",
+      "description": "Loan for the 'missing-middle' students with household incomes between R350,001 and R600,000 per year at public institutions.",
+      "application_opening_date": "20 September",
+      "application_closing_date": "15 December",
+      "eligibility": "South African citizen/permanent resident; combined household income R350,001–R600,000 per year; registered at public university or TVET.",
+      "status": ""
+    },
+    {
+      "name": "Funza Lushaka Bursary",
+      "provider": "Department of Basic Education",
+      "website": "https://www.eservices.gov.za",
+      "logo": "",
+      "description": "Multi-year teaching bursary promoting teaching as a profession. Covers tuition, accommodation (including meals), books, learning materials, and a small living allowance. For B.Ed. or PGCE qualifications in priority subject areas.",
+      "application_opening_date": "7 October",
+      "application_closing_date": "24 January (new students); 30 November (returning bursars)",
+      "eligibility": "South African citizen; 30 years old and below; accepted into approved B.Ed. or PGCE programme; good academic ability.",
+      "status": ""
+    },
+    {
+      "name": "Sasol Bursary",
+      "provider": "Sasol Foundation",
+      "website": "https://sasol.com",
+      "logo": "",
+      "description": "Bursaries for full-time engineering and science studies at university. Offers 100% coverage of tuition fees at a registered South African public university. Also offers postgraduate bursaries for MSc, MEng, and PhD in Chemistry and Chemical Engineering.",
+      "application_opening_date": "",
+      "application_closing_date": "",
+      "eligibility": "South African citizen; planning to enrol full-time at a South African university; pursuing STEM fields.",
+      "status": ""
+    },
+    {
+      "name": "Motsepe Foundation Bursary",
+      "provider": "Motsepe Foundation",
+      "website": "https://bursaries.co.za",
+      "logo": "",
+      "description": "Bursary funding for tuition fees, accommodation, textbooks, and essential study materials. Also provides a stipend.",
+      "application_opening_date": "",
+      "application_closing_date": "",
+      "eligibility": "South African citizen; demonstrate financial need; minimum 70% average in Matric (excluding Life Orientation).",
+      "status": ""
+    },
+    {
+      "name": "NRF Postgraduate Scholarship",
+      "provider": "National Research Foundation (NRF)",
+      "website": "https://www.nrf.ac.za",
+      "logo": "",
+      "description": "Postgraduate funding for Honours, Master's, and Doctoral studies. Covers tuition and research costs.",
+      "application_opening_date": "July (Honours)",
+      "application_closing_date": "30 September (Honours)",
+      "eligibility": "South African citizens; registered for postgraduate studies at a South African university.",
+      "status": ""
+    },
+    {
+      "name": "SITA Bursary",
+      "provider": "State Information Technology Agency (SITA)",
+      "website": "https://mybursaries.co.za",
+      "logo": "",
+      "description": "Bursary promoting skills development in Information and Communication Technology (ICT). Covers tuition, study materials, meals, accommodation, allowances, and work-integrated learning.",
+      "application_opening_date": "",
+      "application_closing_date": "",
+      "eligibility": "South African citizen; completed Matric; pursuing ICT-related qualifications.",
+      "status": ""
+    },
+    {
+      "name": "Cyril Ramaphosa Education Trust (CRET) Bursary",
+      "provider": "Cyril Ramaphosa Education Trust",
+      "website": "https://www.cyrilramaphosafoundation.org",
+      "logo": "",
+      "description": "Comprehensive bursary covering tuition fees, textbooks, study materials, laptops, accommodation, meals, monthly living allowance, and transport.",
+      "application_opening_date": "",
+      "application_closing_date": "",
+      "eligibility": "Academically talented but financially disadvantaged South African students.",
+      "status": ""
+    },
+    {
+      "name": "StudyTrust Bursary",
+      "provider": "StudyTrust",
+      "website": "https://studytrust.org.za",
+      "logo": "",
+      "description": "Bursaries managed by StudyTrust on behalf of various corporate, foundation, and private donors. Covers tuition, accommodation, meals, and monthly stipend.",
+      "application_opening_date": "",
+      "application_closing_date": "10 October",
+      "eligibility": "South African citizens; studying at TVET colleges, universities of technology, or universities.",
+      "status": ""
+    },
+    {
+      "name": "AgriSETA Bursary",
+      "provider": "Agriculture Sector Education and Training Authority (AgriSETA)",
+      "website": "https://www.agriseta.co.za",
+      "logo": "",
+      "description": "Bursaries for training in farming, food safety, and agricultural studies, with bursaries for emerging farmers.",
+      "application_opening_date": "",
+      "application_closing_date": "",
+      "eligibility": "South African citizens; pursuing studies in agriculture-related fields.",
+      "status": ""
+    },
+    {
+      "name": "CHIETA Bursary",
+      "provider": "Chemical Industries Education and Training Authority (CHIETA)",
+      "website": "https://www.chieta.org.za",
+      "logo": "",
+      "description": "Bursaries for students in chemical and related industries.",
+      "application_opening_date": "",
+      "application_closing_date": "",
+      "eligibility": "South African citizens; pursuing studies in chemical or related fields.",
+      "status": ""
+    },
+    {
+      "name": "ETDP SETA Bursary",
+      "provider": "Education, Training and Development Practices SETA (ETDP SETA)",
+      "website": "https://www.etdpseta.org.za",
+      "logo": "",
+      "description": "Bursaries for unemployed students who do not have other sources of funding.",
+      "application_opening_date": "",
+      "application_closing_date": "",
+      "eligibility": "Unemployed South African students; not in any job that pays remuneration.",
+      "status": ""
+    },
+    {
+      "name": "FASSET Bursary",
+      "provider": "Finance and Accounting Services SETA (FASSET)",
+      "website": "https://www.fasset.org.za",
+      "logo": "",
+      "description": "Bursaries for students in finance, accounting, and related fields.",
+      "application_opening_date": "",
+      "application_closing_date": "",
+      "eligibility": "South African citizens; pursuing studies in finance, accounting, or related fields.",
+      "status": ""
+    },
+    {
+      "name": "Insurance SETA Bursary",
+      "provider": "Insurance Sector Education and Training Authority (INSETA)",
+      "website": "https://inseta.org.za",
+      "logo": "",
+      "description": "Bursaries available via the Insurance Sector Student Fund for courses including Insurance Agent, Actuary, Insurance Broker, Financial Investment Advisor, and Insurance Claims Administrator.",
+      "application_opening_date": "",
+      "application_closing_date": "",
+      "eligibility": "South African citizens; pursuing studies in insurance or financial services.",
+      "status": ""
+    },
+    {
+      "name": "MICT SETA Bursary",
+      "provider": "Media, Information and Communication Technology SETA (MICT SETA)",
+      "website": "https://www.mict.org.za",
+      "logo": "",
+      "description": "Bursaries for full-time studies in IT, media, and telecommunications.",
+      "application_opening_date": "",
+      "application_closing_date": "",
+      "eligibility": "South African citizens; pursuing studies in IT, media, or telecommunications.",
+      "status": ""
+    },
+    {
+      "name": "Services SETA Bursary",
+      "provider": "Services Sector Education and Training Authority (Services SETA)",
+      "website": "https://www.serviceseta.org.za",
+      "logo": "",
+      "description": "Bursaries for skills development in hospitality, customer service, real estate, and entrepreneurship.",
+      "application_opening_date": "",
+      "application_closing_date": "Early 2026",
+      "eligibility": "Unemployed South African youth.",
+      "status": ""
+    },
+    {
+      "name": "W&RSETA Bursary",
+      "provider": "Wholesale and Retail SETA (W&RSETA)",
+      "website": "https://www.wrseta.org.za",
+      "logo": "",
+      "description": "Funding for students in the wholesale and retail sector.",
+      "application_opening_date": "",
+      "application_closing_date": "21 February",
+      "eligibility": "South African citizens; pursuing studies in wholesale or retail-related fields.",
+      "status": ""
+    },
+    {
+      "name": "Department of Health Bursary",
+      "provider": "Department of Health",
+      "website": "https://www.health.gov.za",
+      "logo": "",
+      "description": "Bursaries for students pursuing health-related qualifications.",
+      "application_opening_date": "",
+      "application_closing_date": "",
+      "eligibility": "South African citizens; pursuing studies in health sciences or nursing.",
+      "status": ""
+    },
+    {
+      "name": "Department of Transport Bursary",
+      "provider": "Department of Transport",
+      "website": "https://www.transport.gov.za",
+      "logo": "",
+      "description": "Bursaries for students in transport-related fields.",
+      "application_opening_date": "",
+      "application_closing_date": "",
+      "eligibility": "South African citizens; pursuing studies in transport, logistics, or related fields.",
+      "status": ""
+    },
+    {
+      "name": "Department of Agriculture Bursary",
+      "provider": "Department of Agriculture, Land Reform and Rural Development",
+      "website": "https://www.dalrrd.gov.za",
+      "logo": "",
+      "description": "Bursaries for students in agriculture-related fields.",
+      "application_opening_date": "",
+      "application_closing_date": "",
+      "eligibility": "South African citizens; pursuing studies in agriculture or related fields.",
+      "status": ""
+    },
+    {
+      "name": "Sasria Bursary",
+      "provider": "Sasria (South African Special Risks Insurance Association)",
+      "website": "https://mybursaries.co.za",
+      "logo": "",
+      "description": "Bursary programme for students pursuing various fields of study.",
+      "application_opening_date": "",
+      "application_closing_date": "",
+      "eligibility": "South African citizens; studying towards undergraduate or postgraduate qualifications.",
+      "status": ""
+    },
+    {
+      "name": "Nedbank Bursary",
+      "provider": "Nedbank",
+      "website": "https://www.nedbank.co.za",
+      "logo": "",
+      "description": "Bursary for academically deserving students with limited financial means, studying at a public university or university of technology.",
+      "application_opening_date": "",
+      "application_closing_date": "",
+      "eligibility": "South African citizens; limited financial means; studying at public university or university of technology.",
+      "status": ""
+    },
+    {
+      "name": "FirstRand Empowerment Foundation Bursary",
+      "provider": "FirstRand Empowerment Foundation",
+      "website": "https://studytrust.org.za",
+      "logo": "",
+      "description": "Bursary administered by StudyTrust. Covers full tuition fees, learning resources, accommodation, meals, and monthly stipend.",
+      "application_opening_date": "",
+      "application_closing_date": "30 September",
+      "eligibility": "South African citizens; studying at public university or university of technology.",
+      "status": ""
+    },
+    {
+      "name": "Globeleq Education Trust Bursary",
+      "provider": "Globeleq",
+      "website": "https://globeleq.auraams.app",
+      "logo": "",
+      "description": "Bursary for full-time students in renewable energy or related fields. Covers registration/tuition fees, accommodation, meals, books, and stationery.",
+      "application_opening_date": "",
+      "application_closing_date": "",
+      "eligibility": "South African citizens; studying full-time towards a qualification; interest in renewable energy.",
+      "status": ""
+    },
+    {
+      "name": "Thuthuka Bursary Fund",
+      "provider": "SAICA (South African Institute of Chartered Accountants)",
+      "website": "https://www.saica.co.za",
+      "logo": "",
+      "description": "Bursary for students pursuing Chartered Accounting (CA(SA)) qualifications.",
+      "application_opening_date": "",
+      "application_closing_date": "",
+      "eligibility": "South African citizens; combined household income under R350,000 per year; pursuing CA(SA) qualifications.",
+      "status": ""
+    }
+  ]
+}
