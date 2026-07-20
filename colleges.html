@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TVET Colleges & Courses - GoStudy</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <style>
+        body { font-family: 'Outfit', system-ui, -apple-system, sans-serif; }
+        .fade-in { animation: fadeIn 0.5s ease; }
+        @keyframes fadeIn { 0% { opacity: 0; transform: translateY(12px); } 100% { opacity: 1; transform: translateY(0); } }
+        .course-card { transition: all 0.3s ease; }
+        .course-card:hover { transform: translateY(-4px); box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1); }
+    </style>
+</head>
+<body class="min-h-screen flex flex-col bg-white">
+
+    <input type="checkbox" id="nav-toggle" class="peer sr-only" />
+
+    <header class="bg-white border-b border-gray-100 sticky top-0 z-50">
+        <div class="mx-auto flex h-16 max-w-7xl items-center gap-8 px-4 sm:px-6 lg:px-8">
+            <a class="block text-indigo-600 font-extrabold text-2xl tracking-tight" href="index.html">GoStudy</a>
+
+            <div class="flex flex-1 items-center justify-end md:justify-between">
+                <nav aria-label="Global" class="hidden md:block">
+                    <ul class="flex items-center gap-6 text-sm">
+                        <li><a class="text-gray-500 transition hover:text-indigo-600" href="index.html">Home</a></li>
+                        <li><a class="text-gray-500 transition hover:text-indigo-600" href="universities.html">Universities</a></li>
+                        <li><a class="text-indigo-600 transition hover:text-indigo-600" href="colleges.html">Colleges</a></li>
+                        <li><a class="text-gray-500 transition hover:text-indigo-600" href="bursaries.html">Bursaries</a></li>
+                        <li><a class="text-gray-500 transition hover:text-indigo-600" href="blog.html">Blog</a></li>
+                        <li><a class="text-gray-500 transition hover:text-indigo-600" href="past-papers.html">Past Papers</a></li>
+                    </ul>
+                </nav>
+
+                <div class="flex items-center gap-4">
+                    <div class="sm:flex sm:gap-3">
+                        <a class="block rounded-md bg-indigo-600 px-5 py-2.5 text-sm font-medium text-white transition hover:bg-indigo-700" href="onboarding.html">Apply</a>
+                        <a class="hidden rounded-md bg-gray-100 px-5 py-2.5 text-sm font-medium text-indigo-600 transition hover:text-indigo-600/75 sm:block" href="login.html">Sign in</a>
+                    </div>
+
+                    <label for="nav-toggle" id="nav-toggle-label" aria-expanded="false" aria-controls="mobile-nav" class="block cursor-pointer rounded-sm bg-gray-100 p-2.5 text-gray-600 transition peer-focus-visible:ring-2 peer-focus-visible:ring-indigo-600 peer-focus-visible:ring-offset-2 hover:text-gray-600/75 md:hidden">
+                        <span class="sr-only">Toggle menu</span>
+                        <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" class="size-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+                        </svg>
+                    </label>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <nav id="mobile-nav" aria-label="Global Mobile" class="hidden border-b border-gray-100 bg-white peer-checked:block md:hidden">
+        <ul class="space-y-1 px-4 py-4 text-sm">
+            <li><a href="index.html" class="block rounded-lg px-3 py-2 text-gray-500 hover:bg-gray-50">Home</a></li>
+            <li><a href="universities.html" class="block rounded-lg px-3 py-2 text-gray-500 hover:bg-gray-50">Universities</a></li>
+            <li><a href="colleges.html" class="block rounded-lg px-3 py-2 text-indigo-600 hover:bg-gray-50">Colleges</a></li>
+            <li><a href="bursaries.html" class="block rounded-lg px-3 py-2 text-gray-500 hover:bg-gray-50">Bursaries</a></li>
+            <li><a href="blog.html" class="block rounded-lg px-3 py-2 text-gray-500 hover:bg-gray-50">Blog</a></li>
+            <li><a href="past-papers.html" class="block rounded-lg px-3 py-2 text-gray-500 hover:bg-gray-50">Past Papers</a></li>
+        </ul>
+        <div class="flex flex-col gap-2 border-t border-gray-100 px-4 py-4">
+            <a href="onboarding.html" class="rounded-md bg-indigo-600 px-5 py-2.5 text-center text-sm font-medium text-white transition hover:bg-indigo-700">Apply</a>
+            <a href="login.html" class="rounded-md bg-gray-100 px-5 py-2.5 text-center text-sm font-medium text-indigo-600 transition hover:text-indigo-600/75">Sign in</a>
+        </div>
+    </nav>
+
+    <main class="flex-1">
+
+        <!-- Hero -->
+        <section class="relative overflow-hidden bg-gradient-to-br from-indigo-600 via-indigo-700 to-indigo-900 text-white">
+            <div class="absolute inset-0 opacity-10" style="background-image: radial-gradient(circle at 25% 25%, white 1px, transparent 1px); background-size: 40px 40px;"></div>
+            <div class="relative mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8 lg:py-20">
+                <div class="max-w-2xl">
+                    <h1 class="text-4xl font-extrabold tracking-tight sm:text-5xl leading-tight">
+                        TVET Colleges & <span class="text-indigo-200">NCV Courses</span>
+                    </h1>
+                    <p class="mt-6 text-lg text-indigo-100 leading-relaxed">
+                        Explore comprehensive course offerings across South African TVET colleges. Find the right National Certificate Vocational (NCV) program for your career path.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Search & Filter -->
+        <section class="bg-gray-50 border-b border-gray-200 py-8">
+            <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+                <div class="grid grid-cols-1 gap-4 md:grid-cols-3">
+                    <div>
+                        <label class="block text-sm font-medium text-gray-700 mb-2">Search Colleges</label>
+                        <input type="text" id="collegeSearch" placeholder="Search by college name..." class="w-full rounded-lg border border-gray-300 px-4 py-2.5 text-sm outline-none focus:border-indigo-500 focus:ring-1 focus:ring-indigo-500" />
+                    </div>
+                    <div>
+                        <label class="block text-sm font-medium text-gray-700 mb-2">Filter by Category</label>
+                        <select id="categoryFilter" class="w-full rounded-lg border border-gray-300 px-4 py-2.5 text-sm outline-none focus:border-indigo-500 focus:ring-1 focus:ring-indigo-500">
+                            <option value="">All Categories</option>
+                            <option value="Business Studies">Business Studies</option>
+                            <option value="Engineering Studies">Engineering Studies</option>
+                            <option value="Health Sciences">Health Sciences</option>
+                            <option value="Safety Studies">Safety Studies</option>
+                            <option value="Information Technology">Information Technology</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label class="block text-sm font-medium text-gray-700 mb-2">NCV Level</label>
+                        <select id="levelFilter" class="w-full rounded-lg border border-gray-300 px-4 py-2.5 text-sm outline-none focus:border-indigo-500 focus:ring-1 focus:ring-indigo-500">
+                            <option value="">All Levels</option>
+                            <option value="2">Level 2</option>
+                            <option value="3">Level 3</option>
+                            <option value="4">Level 4</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Colleges & Courses -->
+        <section class="py-12 sm:py-16">
+            <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+                <div id="loadingSpinner" class="text-center py-12">
+                    <div class="inline-block">
+                        <div class="w-12 h-12 border-4 border-indigo-200 border-t-indigo-600 rounded-full animate-spin"></div>
+                    </div>
+                    <p class="mt-4 text-gray-600">Loading TVET colleges and courses...</p>
+                </div>
+
+                <div id="collegesContainer" style="display: none;">
+                    <!-- Colleges will be loaded here -->
+                </div>
+
+                <div id="noResults" style="display: none;" class="text-center py-12">
+                    <svg class="mx-auto h-12 w-12 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.172 16.172a4 4 0 015.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
+                    <h3 class="mt-2 text-sm font-medium text-gray-900">No courses found</h3>
+                    <p class="mt-1 text-sm text-gray-500">Try adjusting your search or filter criteria</p>
+                </div>
+
+                <div id="errorMessage" style="display: none;" class="rounded-lg border border-red-200 bg-red-50 p-4">
+                    <h3 class="text-sm font-medium text-red-800">Error loading courses</h3>
+                    <p class="mt-2 text-sm text-red-700" id="errorText"></p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="bg-white border-t border-gray-100">
+        <div class="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-2 gap-8 md:grid-cols-5">
+                <div>
+                    <p class="font-semibold text-gray-900">Platform</p>
+                    <ul class="mt-4 space-y-3 text-sm">
+                        <li><a href="index.html" class="text-gray-500 transition hover:text-indigo-600">Home</a></li>
+                        <li><a href="universities.html" class="text-gray-500 transition hover:text-indigo-600">Universities</a></li>
+                        <li><a href="colleges.html" class="text-gray-500 transition hover:text-indigo-600">Colleges</a></li>
+                        <li><a href="pricing.html" class="text-gray-500 transition hover:text-indigo-600">Pricing</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <p class="font-semibold text-gray-900">Resources</p>
+                    <ul class="mt-4 space-y-3 text-sm">
+                        <li><a href="blog.html" class="text-gray-500 transition hover:text-indigo-600">Blog</a></li>
+                        <li><a href="bursaries.html" class="text-gray-500 transition hover:text-indigo-600">Bursaries</a></li>
+                        <li><a href="past-papers.html" class="text-gray-500 transition hover:text-indigo-600">Past Papers</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <p class="font-semibold text-gray-900">Company</p>
+                    <ul class="mt-4 space-y-3 text-sm">
+                        <li><a href="#" class="text-gray-500 transition hover:text-indigo-600">About</a></li>
+                        <li><a href="contact.html" class="text-gray-500 transition hover:text-indigo-600">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <p class="font-semibold text-gray-900">Legal</p>
+                    <ul class="mt-4 space-y-3 text-sm">
+                        <li><a href="#" class="text-gray-500 transition hover:text-indigo-600">Privacy Policy</a></li>
+                        <li><a href="#" class="text-gray-500 transition hover:text-indigo-600">Terms of Service</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <p class="font-semibold text-gray-900">GoStudy</p>
+                    <p class="mt-4 text-sm text-gray-500">Your path to higher education</p>
+                </div>
+            </div>
+            <div class="mt-12 border-t border-gray-100 pt-8">
+                <p class="text-xs text-gray-500">&copy; 2026 GoStudy. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const GITHUB_BASE = 'https://raw.githubusercontent.com/strideward/helpdesk-central/main';
+        
+        // TVET College files to fetch
+        const collegeFiles = [
+            'boland_tvet_college.json',
+            'central_johannesburg_tvet_college.json',
+            'coastal_tvet_college.json',
+            'majuba_tvet_college.json',
+            'thekwini_tvet_college.json',
+            'waterberg_tvet_college.json'
+        ];
+
+        let allCourses = [];
+        let filteredCourses = [];
+
+        // Load all colleges on page load
+        document.addEventListener('DOMContentLoaded', async function() {
+            await loadAllColleges();
+            setupFilterListeners();
+        });
+
+        async function loadAllColleges() {
+            try {
+                const loadingSpinner = document.getElementById('loadingSpinner');
+                const collegesContainer = document.getElementById('collegesContainer');
+                
+                loadingSpinner.style.display = 'block';
+
+                // Fetch all college files
+                const promises = collegeFiles.map(file => 
+                    fetch(`${GITHUB_BASE}/${file}`)
+                        .then(r => {
+                            if (!r.ok) throw new Error(`Failed to fetch ${file}`);
+                            return r.json();
+                        })
+                        .catch(err => {
+                            console.warn(`Failed to load ${file}:`, err);
+                            return [];
+                        })
+                );
+
+                const results = await Promise.all(promises);
+                
+                // Flatten all courses from all colleges
+                allCourses = results.flat().filter(course => course && course.name);
+                filteredCourses = [...allCourses];
+
+                loadingSpinner.style.display = 'none';
+                displayCourses(filteredCourses);
+
+            } catch (error) {
+                console.error('Error loading colleges:', error);
+                document.getElementById('loadingSpinner').style.display = 'none';
+                document.getElementById('errorMessage').style.display = 'block';
+                document.getElementById('errorText').textContent = error.message;
+            }
+        }
+
+        function displayCourses(courses) {
+            const container = document.getElementById('collegesContainer');
+            const noResults = document.getElementById('noResults');
+
+            if (courses.length === 0) {
+                container.style.display = 'none';
+                noResults.style.display = 'block';
+                return;
+            }
+
+            container.style.display = 'block';
+            noResults.style.display = 'none';
+
+            // Group courses by college
+            const collegeGroups = {};
+            courses.forEach(course => {
+                const college = course.institution || 'Unknown College';
+                if (!collegeGroups[college]) {
+                    collegeGroups[college] = [];
+                }
+                collegeGroups[college].push(course);
+            });
+
+            // Generate HTML
+            let html = '';
+            Object.entries(collegeGroups).forEach(([collegeName, collegeCourses]) => {
+                html += `
+                    <div class="mb-12">
+                        <div class="mb-6">
+                            <h2 class="text-2xl font-bold text-gray-900">${collegeName}</h2>
+                            <p class="mt-2 text-sm text-gray-600">${collegeCourses.length} course(s) available</p>
+                        </div>
+
+                        <div class="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
+                `;
+
+                // Group courses by name within college
+                const coursesByName = {};
+                collegeCourses.forEach(course => {
+                    const key = course.name;
+                    if (!coursesByName[key]) {
+                        coursesByName[key] = [];
+                    }
+                    coursesByName[key].push(course);
+                });
+
+                Object.entries(coursesByName).forEach(([courseName, levels]) => {
+                    const course = levels[0];
+                    html += `
+                        <div class="course-card rounded-lg border border-gray-200 bg-white p-6 hover:shadow-lg">
+                            <div class="flex items-start justify-between mb-4">
+                                <div class="flex-1">
+                                    <h3 class="text-lg font-semibold text-gray-900">${course.name}</h3>
+                                    <p class="mt-1 text-sm text-indigo-600 font-medium">${course.category || 'NCV'}</p>
+                                </div>
+                                <span class="inline-flex items-center rounded-full bg-indigo-50 px-3 py-1 text-xs font-medium text-indigo-700">
+                                    ${levels.length} Level${levels.length > 1 ? 's' : ''}
+                                </span>
+                            </div>
+
+                            <div class="mb-4 space-y-2">
+                                <div class="text-sm">
+                                    <p class="text-gray-600"><strong>Available Levels:</strong> ${levels.map(l => `Level ${l.nqf_level}`).join(', ')}</p>
+                                </div>
+                                <div class="text-sm">
+                                    <p class="text-gray-600"><strong>Duration:</strong> ${course.duration_years || 'N/A'} year(s)</p>
+                                </div>
+                                <div class="text-sm">
+                                    <p class="text-gray-600"><strong>Campus:</strong> ${course.campus || 'Various'}</p>
+                                </div>
+                            </div>
+
+                            <div class="mb-4 pt-4 border-t border-gray-200">
+                                <p class="text-xs font-medium text-gray-700 mb-2">Entry Requirements:</p>
+                                ${course.entry.requirement_text ? `<p class="text-sm text-gray-600">${course.entry.requirement_text}</p>` : ''}
+                                ${course.entry_subjects && course.entry_subjects.must_have && course.entry_subjects.must_have.length > 0 ? `
+                                    <div class="mt-2 text-sm text-gray-600">
+                                        <p><strong>Must have:</strong> ${course.entry_subjects.must_have.map(s => s.subject).join(', ')}</p>
+                                    </div>
+                                ` : ''}
+                            </div>
+
+                            <div class="flex gap-2">
+                                <a href="onboarding.html" class="flex-1 inline-block text-center rounded-md bg-indigo-600 px-4 py-2.5 text-sm font-medium text-white transition hover:bg-indigo-700">
+                                    Apply Now
+                                </a>
+                                <button onclick="toggleDetails(this)" class="flex-1 inline-block rounded-md border border-indigo-600 px-4 py-2.5 text-sm font-medium text-indigo-600 transition hover:bg-indigo-50">
+                                    Details
+                                </button>
+                            </div>
+
+                            <div class="hidden mt-4 pt-4 border-t border-gray-200 details-content">
+                                <h4 class="font-semibold text-sm text-gray-900 mb-3">All Levels:</h4>
+                                <div class="space-y-3">
+                                    ${levels.map(level => `
+                                        <div class="bg-gray-50 p-3 rounded">
+                                            <p class="font-medium text-sm text-gray-900">Level ${level.nqf_level}</p>
+                                            <p class="text-xs text-gray-600 mt-1">${level.entry.requirement_text}</p>
+                                            ${level.next_level ? `<p class="text-xs text-indigo-600 mt-1"><strong>Next:</strong> ${level.next_level}</p>` : ''}
+                                        </div>
+                                    `).join('')}
+                                </div>
+                            </div>
+                        </div>
+                    `;
+                });
+
+                html += '</div></div>';
+            });
+
+            container.innerHTML = html;
+        }
+
+        function toggleDetails(button) {
+            const card = button.closest('.course-card');
+            const details = card.querySelector('.details-content');
+            details.classList.toggle('hidden');
+            button.textContent = details.classList.contains('hidden') ? 'Details' : 'Hide';
+        }
+
+        function setupFilterListeners() {
+            const collegeSearch = document.getElementById('collegeSearch');
+            const categoryFilter = document.getElementById('categoryFilter');
+            const levelFilter = document.getElementById('levelFilter');
+
+            function applyFilters() {
+                const searchTerm = collegeSearch.value.toLowerCase();
+                const selectedCategory = categoryFilter.value;
+                const selectedLevel = levelFilter.value;
+
+                filteredCourses = allCourses.filter(course => {
+                    const matchesSearch = !searchTerm || 
+                        course.institution.toLowerCase().includes(searchTerm) ||
+                        course.name.toLowerCase().includes(searchTerm);
+                    
+                    const matchesCategory = !selectedCategory || course.category === selectedCategory;
+                    const matchesLevel = !selectedLevel || course.nqf_level.toString() === selectedLevel;
+
+                    return matchesSearch && matchesCategory && matchesLevel;
+                });
+
+                displayCourses(filteredCourses);
+            }
+
+            collegeSearch.addEventListener('keyup', applyFilters);
+            categoryFilter.addEventListener('change', applyFilters);
+            levelFilter.addEventListener('change', applyFilters);
+        }
+    </script>
+
+    <script>
+        const navToggleCheckbox = document.getElementById('nav-toggle');
+        const navToggleLabel = document.getElementById('nav-toggle-label');
+        navToggleCheckbox.addEventListener('change', function() {
+            navToggleLabel.setAttribute('aria-expanded', String(navToggleCheckbox.checked));
+        });
+    </script>
+
+</body>
+</html>
